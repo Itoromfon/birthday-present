@@ -1,0 +1,111 @@
+body {
+    margin: 30px;
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    /*background: #a2d2ff;*/
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+}
+
+h1 {
+    text-shadow: 0px 0px 1px #000;
+}
+
+#main-image {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    text-shadow: 0px 0px 1px #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    text-shadow: 0px 0px 1px #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-head {
+    text-shadow: 0px 0px 1px #000;
+    margin-bottom: 10px;
+}
+
+.gift-text {
+    margin: 0;
+    margin-bottom: 15px;
+    text-shadow: 0px 0px 1px #000;
+}
+
+.gift-image {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    background-image: url(gift-cover.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    border: 6px solid #fff;
+    cursor: pointer;
+}
+
+#gift-image-cheers {
+    height: 200px;
+}
+
+#gift-image-happy:hover {
+    background-image: url(happy.gif);
+}
+
+#gift-image-hot:hover {
+    background-image: url(hot.gif);
+}
+
+#gift-image-genius:hover {
+    background-image: url(genius.gif);
+}
+
+#gift-image-badass:hover {
+    background-image: url(badass.gif);
+}
+
+#gift-image-cheers:hover {
+    background-image: url(cheers.gif);
+}
+
+#footer {
+    margin: 40px auto 20px;
+    width: 400px;
+}
+
+a {
+    color: #fff;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
